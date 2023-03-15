@@ -1,0 +1,12 @@
+---
+# Search in https://hub.getdbt.com/
+packages:
+
+  # Provides common utils
+- package: dbt-labs/dbt_utils
+  version: 1.0.0
+
+  # Create boilerplates
+- package: dbt-labs/codegen
+  version: 0.9.0
+  

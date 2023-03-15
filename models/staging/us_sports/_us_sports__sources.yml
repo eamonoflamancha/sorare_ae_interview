@@ -1,0 +1,93 @@
+---
+version: 2
+
+sources:
+  - name: us_sports
+    database: ae_interview_raw
+    tables:
+      - name: baseball_users
+        columns:
+          - name: account_created_at
+          - name: baseball_user_data_json
+          - name: created_at
+          - name: first_deposit_at
+          - name: id
+          - name: updated_at
+
+      - name: cards
+        columns:
+          - name: allocated_at
+          - name: allocation_type
+          - name: card_data_json
+          - name: created_at
+          - name: id
+          - name: owner_changed_at
+          - name: player_id
+          - name: rarity
+          - name: season
+          - name: serial
+          - name: slug
+          - name: sport
+          - name: updated_at
+          - name: user_id
+          - name: xp
+
+      - name: fixtures
+        columns:
+          - name: created_at
+          - name: end_date
+          - name: game_week
+          - name: id
+          - name: opened_at
+          - name: slug
+          - name: sport
+          - name: start_date
+          - name: state
+          - name: updated_at
+
+      - name: leaderboards
+        columns:
+          - name: created_at
+          - name: fixture_id
+          - name: id
+          - name: is_training
+          - name: leaderboard_data_json
+          - name: slug
+          - name: sport
+          - name: type_slug
+          - name: updated_at
+
+      - name: lineups
+        columns:
+          - name: id
+          - name: user_id
+          - name: fixture_id
+          - name: leaderboard_id
+          - name: card_ids
+          - name: rank
+          - name: created_at
+          - name: updated_at
+
+      - name: players
+        columns:
+          - name: active
+          - name: birth_date
+          - name: created_at
+          - name: full_name
+          - name: id
+          - name: player_data_json
+          - name: positions
+          - name: slug
+          - name: sport
+          - name: team_id
+          - name: updated_at
+
+      - name: teams
+        columns:
+          - name: created_at
+          - name: id
+          - name: is_all_star
+          - name: slug
+          - name: sport
+          - name: team_data_json
+          - name: updated_at

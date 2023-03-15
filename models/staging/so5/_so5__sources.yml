@@ -1,0 +1,14 @@
+---
+version: 2
+
+sources:
+  - name: SO5
+    database: AE_INTERVIEW_RAW
+    tables:
+      - name: USERS
+        columns:
+          - name: created_at
+          - name: first_deposit_at
+          - name: id
+          - name: updated_at
+          - name: utm_params

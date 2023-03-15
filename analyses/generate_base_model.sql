@@ -1,4 +1,4 @@
-{{ codegen.generate_base_model(
+{# {{ codegen.generate_base_model(
     source_name='us_sports',
-    table_name='cards'
-) }}
+    table_name='teams'
+) }} #}

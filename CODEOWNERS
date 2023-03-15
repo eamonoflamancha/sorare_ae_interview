@@ -1,0 +1,12 @@
+.editorconfig   
+.gitignore      
+.python-version 
+.sqlfluffignore 
+README.md       
+dbt_packages    
+poetry.lock     
+pyproject.toml
+.gitlab-ci.yml  
+.sqlfluff       
+Makefile        
+packages.yml

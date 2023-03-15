@@ -1,0 +1,11 @@
+# Python
+_tmp/
+.venv/
+# dbt
+target/
+# dbt <1.0.0
+dbt_modules/
+# dbt >=1.0.0
+dbt_packages/
+macros/
+operations/

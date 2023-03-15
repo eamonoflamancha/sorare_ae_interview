@@ -3,7 +3,6 @@
 target/
 dbt_packages/
 logs/
-profiles.yml
 .user.yml
 
 # Python
@@ -15,12 +14,6 @@ lib64
 pyvenv.cfg
 share/
 *.ipynb_checkpoints
-
-# Elementary
-edr.log
-elementary.html
-elementary_report.html
-elementary_output.json
 
 # macOS template
 **/.DS_Store

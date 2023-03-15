@@ -1,0 +1,13 @@
+sorare_ae_interview:
+  outputs:
+    dev:
+      account: UMGSHNJ-GE28364
+      database: AE_INTERVIEW
+      password: '{{ env_var(''AE_INTERVIEW_PW'') }}'
+      role: INTERVIEWEE
+      schema: ANALYTICS
+      threads: 8
+      type: snowflake
+      user: AE_CANDIDATE
+      warehouse: ANALYSIS
+  target: dev

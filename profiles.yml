@@ -3,7 +3,7 @@ sorare_ae_interview:
     dev:
       account: UMGSHNJ-GE28364
       database: AE_INTERVIEW
-      password: '{{ env_var(''AE_INTERVIEW_PW'') }}'
+      password: tEYxqh2gD7JUfj2zADzy
       role: INTERVIEWEE
       schema: ANALYTICS
       threads: 8
